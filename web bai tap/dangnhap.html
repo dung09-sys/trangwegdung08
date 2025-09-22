@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Đăng nhập</title>
+  <link rel="stylesheet" href="trangchu.css">
+  <style>
+    .container {
+      width: 80%;
+      margin: 30px auto;
+      display: flex;
+      gap: 30px;
+    }
+    .form-box {
+      flex: 1;
+      border: 1px solid #ddd;
+      padding: 20px;
+      border-radius: 6px;
+      background: #fff;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    label {
+      display: block;
+      margin: 8px 0 4px;
+      font-weight: bold;
+    }
+    input {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      background: #ff6600;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #e65c00;
+    }
+    .note {
+      font-size: 13px;
+      color: gray;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Đăng Nhập Tài Khoản</h2>
+
+  <div class="container">
+    <!-- Khách hàng mới -->
+    <div class="form-box">
+      <h3>Khách hàng mới</h3>
+      <p>Đăng ký tài khoản để mua sắm nhanh hơn, theo dõi đơn hàng.</p>
+      <a href="dangky.html"><button>Tiếp tục</button></a>
+    </div>
+
+    <!-- Khách hàng cũ -->
+    <div class="form-box">
+      <h3>Khách hàng cũ</h3>
+      <form action="#" method="post">
+        <label>Địa chỉ Email</label>
+        <input type="email" name="email" required>
+
+        <label>Mật khẩu</label>
+        <input type="password" name="matkhau" required>
+
+        <p><a href="#">Quên mật khẩu?</a></p>
+        <button type="submit">Đăng nhập</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

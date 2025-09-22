@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>DŨNG LÊ - Bảo trì hệ thống</title>
+  <link rel="stylesheet" href="trangchu.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <!-- Thanh thông báo trên cùng -->
+  <div class="top-bar">
+    🔔 GIAO HÀNG NỘI THÀNH 3H. LẮP ĐẶT ĐÚNG CHUẨN. GIÁ TỐT
+  </div>
+
+  <!-- Header -->
+  <div class="header">
+    <div class="logo">DŨNG LÊ </div>
+    <div class="search-box">
+      <input type="text" placeholder="Tìm kiếm">
+      <button>🔍</button>
+    </div>
+
+    <!-- Tài khoản -->
+    <div class="dropdown account">
+      <button class="dropbtn">👤 Tài khoản</button>
+      <div class="dropdown-content">
+        <a href="dangki.html">Đăng ký</a>
+        <a href="dangnhap.html">Đăng nhập</a>
+      </div>
+    </div>
+
+    <!-- Giỏ hàng -->
+    <div class="cart">🛒 Giỏ hàng (0)</div>
+  </div>
+
+  <!-- Thanh menu ngang -->
+  <div class="navbar">
+    <!-- Menu Danh mục -->
+<div class="dropdown menu">
+  <button class="dropbtn">☰ Danh mục sản phẩm</button>
+  <div class="dropdown-content">
+
+    <!-- 1. Thương hiệu -->
+    <div class="submenu">
+      <a href="#"><b>Thương hiệu</b><br><span>Các thương hiệu nổi bật</span></a>
+      <div class="submenu-content">
+        <a href="#">TOTO</a>
+        <a href="#">INAX</a>
+        <a href="#">Caesar</a>
+        <a href="#">American Standard</a>
+        <a href="#">Kohler</a>
+        <a href="#">Grohe</a>
+      </div>
+    </div>
+
+    <!-- 2. Thiết bị vệ sinh -->
+    <div class="submenu">
+      <a href="#"><b>Thiết bị vệ sinh</b><br><span>Bàn cầu, Lavabo, Vòi...</span></a>
+      <div class="submenu-content">
+        <a href="#">Bàn cầu</a>
+        <a href="#">Lavabo</a>
+        <a href="#">Sen tắm</a>
+        <a href="#">Vòi chậu</a>
+        <a href="#">Bồn tắm</a>
+        <a href="#">Phụ kiện phòng tắm</a>
+      </div>
+    </div>
+
+    <!-- 3. Thiết bị bếp -->
+    <div class="submenu">
+      <a href="#"><b>Thiết bị bếp</b><br><span>Bếp điện, máy hút mùi...</span></a>
+      <div class="submenu-content">
+        <a href="#">Bếp điện từ</a>
+        <a href="#">Bếp gas</a>
+        <a href="#">Máy hút mùi</a>
+        <a href="#">Chậu rửa bát</a>
+        <a href="#">Vòi rửa bát</a>
+        <a href="#">Máy lọc nước</a>
+      </div>
+    </div>
+
+    <!-- 4. Vật liệu nước -->
+    <div class="submenu">
+      <a href="#"><b>Vật liệu nước</b><br><span>Bồn nước, pin mặt trời...</span></a>
+      <div class="submenu-content">
+        <a href="#">Bồn nước inox</a>
+        <a href="#">Bồn nhựa</a>
+        <a href="#">Máy nước nóng NLMT</a>
+        <a href="#">Máy bơm nước</a>
+        <a href="#">Ống nước</a>
+        <a href="#">Van - phụ kiện</a>
+      </div>
+    </div>
+
+    <!-- 5. Thiết bị khóa cửa -->
+    <div class="submenu">
+      <a href="#"><b>Thiết bị khóa cửa</b><br><span>Khóa điện tử, ổ khóa...</span></a>
+      <div class="submenu-content">
+        <a href="#">Khóa điện tử</a>
+        <a href="#">Khóa vân tay</a>
+        <a href="#">Khóa cơ</a>
+        <a href="#">Khóa cửa kính</a>
+        <a href="#">Ổ khóa rời</a>
+      </div>
+    </div>
+
+    <!-- 6. Thiết bị điện -->
+    <div class="submenu">
+      <a href="#"><b>Thiết bị điện</b><br><span>Công tắc, đèn led...</span></a>
+      <div class="submenu-content">
+        <a href="#">Công tắc - Ổ cắm</a>
+        <a href="#">Đèn LED</a>
+        <a href="#">Đèn trang trí</a>
+        <a href="#">Ống luồn dây</a>
+        <a href="#">Quạt điện</a>
+        <a href="#">Thiết bị chống sét</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+    <!-- Menu ngang -->
+    <div class="nav-links">
+      <a href="#">GIỚI THIỆU</a>
+      <a href="#">HỆ THỐNG SHOWROOM</a>
+      <a href="#">CATALOG</a>
+    </div>
+
+    <!-- Hotline -->
+    <div class="hotline">
+      📞 HOTLINE: <span>09389314697 - 02223333333</span>
+    </div>
+  </div>
+  <!-- Khung khuyến mại -->
+   <div class="tab-container">
+  <!-- Chọn tab -->
+  <input type="radio" id="tab1" name="tab" checked>
+  <input type="radio" id="tab2" name="tab">
+  <input type="radio" id="tab3" name="tab">
+  <input type="radio" id="tab4" name="tab">
+
+  <!-- Ảnh banner -->
+  <div class="tab-content">
+    <img id="american" src="american.jpg" alt="American Standard">
+    <img id="caesar" src="caesar.jpg" alt="Caesar">
+    <img id="toto" src="toto.jpg" alt="TOTO">
+    <img id="inax" src="inax.jpg" alt="INAX">
+  </div>
+
+  <!-- Tabs bên dưới -->
+  <div class="tabs">
+    <label for="tab1">American Standard Khuyến mãi Hè 2025</label>
+    <label for="tab2">Caesar Khuyến mãi Hè 2025</label>
+    <label for="tab3">TOTO Khuyến mãi Hè 2025</label>
+    <label for="tab4">INAX Khuyến mãi Hè 2025</label>
+  </div>
+</div>
+
+<!-- Services: Giao hàng, Chính hãng, Giá thành, Lắp đặt -->
+<section class="services-section" aria-label="Dịch vụ">
+  <div class="service">
+    <div class="svc-icon"><i class="fa-solid fa-truck-fast"></i></div>
+    <h4>Giao hàng</h4>
+    <p>Giao nhanh trong ngày, theo dõi đơn hàng trực tuyến</p>
+  </div>
+
+  <div class="service">
+    <div class="svc-icon"><i class="fa-solid fa-certificate"></i></div>
+    <h4>Chính hãng</h4>
+    <p>Cam kết 100% chính hãng, bảo hành theo nhà sản xuất</p>
+  </div>
+
+  <div class="service">
+    <div class="svc-icon"><i class="fa-solid fa-tags"></i></div>
+    <h4>Giá thành</h4>
+    <p>Giá cạnh tranh, nhiều chương trình khuyến mãi</p>
+  </div>
+
+  <div class="service">
+    <div class="svc-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+    <h4>Lắp đặt</h4>
+    <p>Dịch vụ lắp đặt chuyên nghiệp, tận nơi</p>
+  </div>
+</section>
+
+
+  <!-- Nội dung -->
+  <div class="content">
+    <h2>
+      Chúng tôi đang tiến hành bảo trì hệ thống định kì.<br>
+      Chúng tôi sẽ hoạt động lại sớm nhất có thể. Vui lòng quay lại sau.
+    </h2>
+    <h3>HỆ THỐNG SHOWROOM TDM TUẤN ĐỨC</h3>
+  </div>
+ <div class="container"> 
+
+    <!-- Tiêu đề -->
+    <div class="hero">
+      <h1>Thiết Bị Vệ Sinh</h1>
+    </div>
+
+    <!-- Danh mục sản phẩm -->
+    <div class="grid">
+      <div class="card">
+        <div class="visual"><img src="ảnh btl mã nguồn mở/bon-cau.jpg" alt="Bồn Cầu"></div>
+        <div class="label">Bồn Cầu</div>
+      </div>
+
+      <div class="card">
+        <div class="visual"><img src="ảnh btl mã nguồn mở/bon-cau-dien-tu.jpg" alt="Bồn Cầu Điện Tử"></div>
+        <div class="label">Bồn Cầu Điện Tử</div>
+      </div>
+
+      <div class="card active">
+        <div class="visual"><img src="ảnh btl mã nguồn mở/nap-bon-cau.jpg" alt="Nắp Bồn Cầu"></div>
+        <div class="label">Nắp Bồn Cầu</div>
+      </div>
+
+      <div class="card">
+        <div class="visual"><img src="ảnh btl mã nguồn mở/chau-lavabo.jpg" alt="Chậu Lavabo"></div>
+        <div class="label">Chậu Lavabo</div>
+      </div>
+
+      <div class="card">
+        <div class="visual"><img src="ảnh btl mã nguồn mở/voi-chau.jpg" alt="Vòi Chậu"></div>
+        <div class="label">Vòi Chậu</div>
+      </div>
+
+      <div class="card">
+        <div class="visual"><img src="ảnh btl mã nguồn mở/voi-cam-ung.jpg" alt="Vòi Cảm Ứng"></div>
+        <div class="label">Vòi Cảm Ứng</div>
+      </div>
+
+      <div class="card">
+        <div class="visual"><img src="ảnh btl mã nguồn mở/bon-tieu.jpg" alt="Bồn Tiểu"></div>
+        <div class="label">Bồn Tiểu</div>
+      </div>
+
+      <div class="card">
+        <div class="visual"><img src="ảnh btl mã nguồn mở/van-xa-tieu.jpg" alt="Van Xả Tiểu"></div>
+        <div class="label">Van Xả Tiểu</div>
+      </div>
+
+      <div class="card">
+        <div class="visual"><img src="ảnh btl mã nguồn mở/voi-sen.jpg" alt="Vòi Sen"></div>
+        <div class="label">Vòi Sen</div>
+      </div>
+
+      <div class="card">
+        <div class="visual"><img src="ảnh btl mã nguồn mở/sen-cay.jpg" alt="Sen Cây"></div>
+        <div class="label">Sen Cây</div>
+      </div>
+
+      <div class="card">
+        <div class="visual"><img src="ảnh btl mã nguồn mở/sen-am-tuong.jpg" alt="Sen Âm Tường"></div>
+        <div class="label">Sen Âm Tường</div>
+      </div>
+
+      <div class="card">
+        <div class="visual"><img src="ảnh btl mã nguồn mở/bon-tam.jpg" alt="Bồn Tắm"></div>
+        <div class="label">Bồn Tắm</div>
+      </div>
+
+      <div class="card">
+        <div class="visual"><img src="ảnh btl mã nguồn mở/voi-bon-tam.jpg" alt="Vòi Bồn Tắm"></div>
+        <div class="label">Vòi Bồn Tắm</div>
+      </div>
+
+      <div class="card">
+        <div class="visual"><img src="ảnh btl mã nguồn mở/phu-kien.jpg" alt="Phụ Kiện"></div>
+        <div class="label">Phụ Kiện</div>
+      </div>
+
+      <div class="card">
+        <div class="visual"><img src="ảnh btl mã nguồn mở/pheu-thoat-san.jpg" alt="Phễu Thoát Sàn"></div>
+        <div class="label">Phễu Thoát Sàn</div>
+      </div>
+
+      <div class="card">
+        <div class="visual"><img src="ảnh btl mã nguồn mở/voi-xit.jpg" alt="Vòi Xịt"></div>
+        <div class="label">Vòi Xịt</div>
+      </div>
+    </div>
+
+    <!-- Logo thương hiệu -->
+    <div class="brands">
+      <img src="images/toto.jpg" alt="TOTO">
+      <img src="images/inax.jpg" alt="INAX">
+      <img src="images/american-standard.jpg" alt="American Standard">
+      <img src="images/caesar.jpg" alt="Caesar">
+      <img src="images/viglacera.jpg" alt="Viglacera">
+      <img src="images/cotto.jpg" alt="Cotto">
+      <img src="images/grohe.jpg" alt="Grohe">
+      <img src="images/moen.jpg" alt="Moen">
+      <img src="images/kanly.jpg" alt="Kanly">
+      <img src="images/gls.jpg" alt="GLS">
+    </div>
+
+  </div>
+  <!-- Nội dung chính - Danh sách showroom -->
+    <div class="showroom-list">
+      <div class="showroom-item">
+        <span class="icon">📍</span>
+        <div class="details">
+          <h3>TDM CENTER</h3>
+          <p>Địa chỉ: Số 203 Xuân Ái, P. ĐT An, TP.HCM</p>
+          <p>Giờ hoạt động: Thứ 2 - 7 (7:30 - 17:00), Chủ Nhật (8:00 - 11:00 & 14:00 - 16:30)</p>
+          <p class="phone">Điện thoại: 028.2244.8333</p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.067927912369!2d106.67877167500816!3d10.792121159717536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTDCsDUwJzU2LjAiTiAxMDbCsDQwJzUwLjQiRQ!5e0!3m2!1svi!2s!4v1693664000000"
+            width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+      <div class="showroom-item">
+        <span class="icon">📍</span>
+        <div class="details">
+          <h3>TDM GÒ VẤP</h3>
+          <p>Địa chỉ: 467/8 Tân Sơn, P. An Hữu Tây, TP.HCM</p>
+          <p>Giờ hoạt động: Thứ 2 - 7 (7:30 - 17:00), Chủ Nhật (8:00 - 11:00 & 14:00 - 16:30)</p>
+          <p class="phone">Điện thoại: 028667.55504</p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.067927912369!2d106.67877167500816!3d10.792121159717536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTDCsDUwJzU2LjAiTiAxMDbCsDQwJzUwLjQiRQ!5e0!3m2!1svi!2s!4v1693664000000"
+            width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+      <div class="showroom-item">
+        <span class="icon">📍</span>
+        <div class="details">
+          <h3>TDM HÀ NỘI</h3>
+          <p>Địa chỉ: P. M1-1 CC MHĐ 361, 60 Hoàng Quốc Việt, P. Nghĩa Đô, Hà Nội</p>
+          <p>Giờ hoạt động: Thứ 2 - 7 (8:00 - 17:00), Chủ Nhật (8:00 - 11:00 & 14:00 - 16:30)</p>
+          <p class="phone">Điện thoại: 02466897799 - 093270099</p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.137637409614!2d105.80166167501108!3d21.0368042597043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjHCsDAyJzEyLjQiTiAxMDXCsDQ4JzA0LjgiRQ!5e0!3m2!1svi!2s!4v1693664000000"
+            width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+      <div class="showroom-item">
+        <span class="icon">📍</span>
+        <div class="details">
+          <h3>TDM QUẬN 7</h3>
+          <p>Địa chỉ: 142 Gò Ô Môi, P. Phú Thuận, TP.HCM</p>
+          <p>Giờ hoạt động: Thứ 2 - 7 (7:30 - 17:00), Chủ Nhật (8:00 - 11:00 & 14:00 - 16:30)</p>
+          <p class="phone">Điện thoại: 028.66.818685</p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.067927912369!2d106.67877167500816!3d10.792121159717536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTDCsDUwJzU2LjAiTiAxMDbCsDQwJzUwLjQiRQ!5e0!3m2!1svi!2s!4v1693664000000"
+            width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+      <div class="showroom-item">
+        <span class="icon">📍</span>
+        <div class="details">
+          <h3>TDM THỦ ĐỨC MỚI</h3>
+          <p>Địa chỉ: 112 Nguyễn Văn Trỗi, P. Phú Lợi, TP. Thủ Đức, TP.HCM</p>
+          <p>Giờ hoạt động: Thứ 2 - 7 (7:30 - 17:00), Chủ Nhật (8:00 - 11:00 & 14:00 - 16:30)</p>
+          <p class="phone">Điện thoại: 0282219.2232</p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.067927912369!2d106.67877167500816!3d10.792121159717536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTDCsDUwJzU2LjAiTiAxMDbCsDQwJzUwLjQiRQ!5e0!3m2!1svi!2s!4v1693664000000"
+            width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+      <div class="showroom-item">
+        <span class="icon">📍</span>
+        <div class="details">
+          <h3>TDM BÌNH TÂN</h3>
+          <p>Địa chỉ: 426 Trân Văn Giau, P. Tân Tạo, TP.HCM</p>
+          <p>Giờ hoạt động: Thứ 2 - 7 (7:30 - 17:00), Chủ Nhật (8:00 - 11:00 & 14:00 - 16:30)</p>
+          <p class="phone">Điện thoại: 028.66.2232</p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.067927912369!2d106.67877167500816!3d10.792121159717536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTDCsDUwJzU2LjAiTiAxMDbCsDQwJzUwLjQiRQ!5e0!3m2!1svi!2s!4v1693664000000"
+            width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+    <p style="color: #e74c3c; font-weight: bold;">Tất cả chi nhánh đều có chở đồ xe ô tô</p>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <div class="logo">DŨNG LÊ</div>
+    <p><a href="#">Về TDM - Giải thích về TDM</a> | <a href="#">Dịch vụ - Hướng dẫn mua hàng</a></p>
+    <p>Hotline: 09389314697 | Chat Zalo/Facebook: (7:30 - 18:00)</p>
+  </div>
+  <footer class="footer">
+  <div class="footer-container">
+    
+    <!-- Cột 1: Logo / Giới thiệu -->
+    <div class="footer-about">
+      <img src="logo.png" alt="Đại diện TDM" class="footer-img">
+      <p><strong>DOANH NGHIỆP THƯƠNG MẠI DỊCH VỤ DŨNG LÊ</strong><br>
+        GPDKKD số: 3700342131 do Sở KHĐT Tỉnh Bình Dương cấp ngày 17/01/2017<br>
+        Đại diện truyền thông: LÊ HÙNG DŨNG
+      </p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-tiktok"></i></a>
+        <a href="#"><i class="fab fa-pinterest"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+
+    <!-- Cột 2 -->
+    <div class="footer-col">
+      <h4>VỀ TDM</h4>
+      <ul>
+        <li><a href="#">Giới thiệu về TDM</a></li>
+        <li><a href="#">Đội ngũ nhân sự</a></li>
+        <li><a href="#">Lĩnh vực hoạt động</a></li>
+        <li><a href="#">Hệ thống showroom</a></li>
+        <li><a href="#">Hồ sơ năng lực</a></li>
+        <li><a href="#">Giải thưởng & Chứng nhận</a></li>
+        <li><a href="#">Tuyển dụng & Cộng tác viên</a></li>
+        <li><a href="#">Liên hệ với chúng tôi</a></li>
+      </ul>
+    </div>
+
+    <!-- Cột 3 -->
+    <div class="footer-col">
+      <h4>DỊCH VỤ</h4>
+      <ul>
+        <li><a href="#">Hướng dẫn mua hàng</a></li>
+        <li><a href="#">Hướng dẫn thanh toán</a></li>
+        <li><a href="#">Biểu phí lắp đặt</a></li>
+        <li><a href="#">Những lưu ý khi sử dụng sản phẩm</a></li>
+      </ul>
+    </div>
+
+    <!-- Cột 4 -->
+    <div class="footer-col">
+      <h4>CHÍNH SÁCH</h4>
+      <ul>
+        <li><a href="#">Chính sách bảo mật</a></li>
+        <li><a href="#">Chính sách bảo hành</a></li>
+        <li><a href="#">Quy định đổi trả hàng</a></li>
+        <li><a href="#">Giao hàng & Nhận hàng</a></li>
+      </ul>
+      <h4>TIN TỨC</h4>
+      <ul>
+        <li><a href="#">Tin tức bài viết</a></li>
+        <li><a href="#">Catalog & Khuyến mãi</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Dòng cuối -->
+  <div class="footer-bottom">
+    <p>TDM @2015 - 2025 – DŨNG LÊ siêu thị thiết bị vệ sinh, thiết bị bếp, thiết bị nước, thiết bị điện hàng đầu tại Việt Nam.  
+    Showroom tại TPHCM, Hà Nội và nhiều tỉnh thành trên cả nước.</p>
+  </div>
+</footer>
+</body>
+</html>
